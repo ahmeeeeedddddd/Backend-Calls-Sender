@@ -1,0 +1,14 @@
+{
+  "name": "recordings-backend",
+  "version": "1.0.0",
+  "description": "VoIP simulator that watches a folder and uploads audio files",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.8",
+    "chokidar": "^3.6.0",
+    "form-data": "^4.0.0"
+  }
+}
